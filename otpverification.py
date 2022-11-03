@@ -13,7 +13,7 @@ otp = OTP + " is your OTP"
 msg= otp
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
-#you need to have your Google app password to be able to send emails using your Gmail account. For this task, you need to follow the steps mentioned :
+#you need to have your Google app password to be able to send emails using your Gmail account. For this task, you need to follow the steps mentioned bellow :
 # 1. Go to your Google Account.
 # 2. Select Security.
 # 3. Under “Signing in to Google,” select App Passwords.
